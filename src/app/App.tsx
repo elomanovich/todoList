@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './App.css'
-import {AppRootStateType, useAppDispatch, useAppSelector} from './store'
+import {useAppDispatch, useAppSelector} from './store'
 import {initializeAppTC, RequestStatusType} from './app-reducer'
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
